@@ -24,6 +24,20 @@ public class Client {
         for(Items item:items){
             System.out.println(item.getName()+"price is:::"+item.getPrice());
         }
+        System.out.println("*****************************************************");
+        //this object will only expect electrnics type
+        Inventory<Electronics> electronicsInventory=new Inventory<>();
+        Inventory<Book> booksInventory=new Inventory<>();
+        Inventory<Clothing> clothingInventory=new Inventory<>();
 
+        electronicsInventory.add(new Electronics(4,"Mouse", (long) 6000.0,1,6));
+        electronicsInventory.add(new Electronics(8,"Mouse1", (long) 6000.0,1,6));
+        electronicsInventory.add(new Electronics(9,"Mouse3", (long) 6000.0,1,6));
+        electronicsInventory.add(new Electronics(10,"Mouse4", (long) 6000.0,1,6));
+        System.out.println("*****************************************************");
+        System.out.println("pritnig all items"+electronicsInventory.getAllByItems());
+        for(Items item:electronicsInventory.getAllByItems()){
+            System.out.println(item.getName()+"price is:::"+item.getPrice());
+        }
     }
 }

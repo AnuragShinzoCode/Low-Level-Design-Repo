@@ -74,5 +74,21 @@ public class Client {
         for(Items item:items1){
             System.out.println(item.getQuantity());
         }
+        System.out.println("*****************************************************");
+        Order order1=new Order(true,"1");
+        Order order2=new Order(false,"2");
+        Order order3=new Order(true,"3");
+        Order order4=new Order(false,"4");
+        Order order5=new Order(true,"5");
+OrderProcessor orderProcessor=new OrderProcessor();
+orderProcessor.addOrder(order1);
+        orderProcessor.addOrder(order2);
+        orderProcessor.addOrder(order3);
+        orderProcessor.addOrder(order4);
+        orderProcessor.addOrder(order5);
+        while(orderProcessor.getSize()>0){
+            orderProcessor.processOrder();
+        }
+
     }
 }

@@ -1,0 +1,14 @@
+package org.example.DesignPrincipleAndPattern.V2;
+
+public class piegon extends Bird implements Flyable{
+
+    @Override
+    public void makeSound() {
+        System.out.println("peogoin is making sound");
+    }
+
+    @Override
+    public void fly() {
+
+    }
+}

@@ -1,4 +1,4 @@
-package org.example.BuilderPattern.Vfinal;
+package org.example.DesignPatterns.BuilderPattern.Vfinal;
 
 //public class SoldItemBuilder {
 //

@@ -1,4 +1,4 @@
-package org.example.PrototypeAndRegistryPattern;
+package org.example.DesignPatterns.PrototypeAndRegistryPattern;
 
 public class StudentUtility {
     public static void createCopy(Student student){

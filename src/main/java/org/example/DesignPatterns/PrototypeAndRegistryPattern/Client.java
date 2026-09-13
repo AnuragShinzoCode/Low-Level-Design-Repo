@@ -1,4 +1,4 @@
-package org.example.PrototypeAndRegistryPattern;
+package org.example.DesignPatterns.PrototypeAndRegistryPattern;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example.BuilderPattern;
+package org.example.DesignPatterns.BuilderPattern;
 
 public class SoldItem {
     int id;

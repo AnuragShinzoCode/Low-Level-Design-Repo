@@ -1,4 +1,4 @@
-package org.example.DesignPrincipleAndPattern.V2;
+package org.example.SOLID.V3;
 
 public class Client {
     public static void main(String[] args) {
@@ -11,5 +11,10 @@ public class Client {
         //only able to access all behaviour a crow has may be implemeted interface and inherited class
         Crow n1=new Crow();
         n1.fly();
+
+        Eagle ob=new Eagle();
+        //here we are doing dependency injection
+        ob.fly(new FlyLow());
+        ob.fly(new FlyHigh());
     }
 }

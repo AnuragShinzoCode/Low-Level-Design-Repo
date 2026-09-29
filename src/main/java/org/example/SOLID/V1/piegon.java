@@ -1,4 +1,4 @@
-package org.example.DesignPrincipleAndPattern.V1;
+package org.example.SOLID.V1;
 
 public class piegon extends Bird {
     @Override

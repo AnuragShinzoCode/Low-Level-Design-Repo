@@ -33,10 +33,12 @@ public class StudentRegistry {
     }
 
     public void add(StudentType key , Student student){
+
         students.put(key , student);
     }
 //returing the copy of exsusting object
     public Student get(StudentType key){
+
         return students.get(key).copy();
     }
 }

@@ -1,4 +1,4 @@
-package org.example.DesignPrincipleAndPattern.V3;
+package org.example.SOLID.V3;
 
 public class Eagle extends Bird implements Flyable{
     @Override

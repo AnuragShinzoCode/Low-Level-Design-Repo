@@ -1,4 +1,4 @@
-package org.example.DesignPrincipleAndPattern.V2;
+package org.example.SOLID.V2;
 
 public interface Flyable {
 

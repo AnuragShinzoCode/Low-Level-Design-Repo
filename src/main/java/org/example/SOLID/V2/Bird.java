@@ -1,4 +1,4 @@
-package org.example.DesignPrincipleAndPattern.V3;
+package org.example.SOLID.V2;
 
 public abstract class Bird {
     private String name;

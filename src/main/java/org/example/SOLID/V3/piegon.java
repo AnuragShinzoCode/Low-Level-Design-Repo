@@ -1,6 +1,6 @@
-package org.example.DesignPrincipleAndPattern.V2;
+package org.example.SOLID.V3;
 
-public class piegon extends Bird implements Flyable{
+public class piegon extends Bird implements Flyable {
 
     @Override
     public void makeSound() {
@@ -9,6 +9,6 @@ public class piegon extends Bird implements Flyable{
 
     @Override
     public void fly() {
-
+        System.out.println("flying low");
     }
 }

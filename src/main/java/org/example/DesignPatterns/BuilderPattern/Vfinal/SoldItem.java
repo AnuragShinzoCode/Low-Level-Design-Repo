@@ -75,9 +75,11 @@ public class SoldItem {
         String name;
         int price;
         public SoldItem build(){
+
             return new SoldItem(this);
         }
         public int getId() {
+
             return id;
         }
 
